@@ -55,18 +55,5 @@ The frontend will run on `http://localhost:3000/`.
 
 - Make sure the backend server is running before using the frontend.
 - CORS is configured for local development.
-- The root `.gitignore` excludes common Python, Django, Node, and editor files.
 
-## Git
 
-To initialize and push the repository:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin master
-```
-
-If your branch is `main`, use `git push -u origin main` instead.
